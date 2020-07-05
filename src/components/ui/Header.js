@@ -117,6 +117,7 @@ export default function Header(props) {
     //   setValue(5);
     // }
 
+   
     switch (window.location.pathname) {
       case "/":
         if (value !== 0) {
