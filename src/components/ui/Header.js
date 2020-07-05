@@ -117,6 +117,8 @@ export default function Header(props) {
     //   setValue(5);
     // }
 
+    // adding comment to make sure push still works
+
     switch (window.location.pathname) {
       case "/":
         if (value !== 0) {
