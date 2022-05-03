@@ -72,6 +72,11 @@ export default createMuiTheme({
             fontSize: "1rem",
             textTransform: "none",
             color: "white"
-        }
+        },
+        caption: {
+            fontSize: "1rem",
+            fontWeight: 300,
+            color: arcGrey
+        },
     }
 });
