@@ -715,7 +715,7 @@ export default function Revolution(props) {
           <img
             src={launch}
             alt="rocket"
-            style={{ maxWidth: 200 }}
+            style={{maxWidth: matchesMD ? 135 : 700}}
             width="100%"
           />
         </Grid>
