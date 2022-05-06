@@ -70,10 +70,10 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       backgroundColor: theme.palette.secondary.light,
     },
-    [theme.breakpoints.down("sm")] :{
+    [theme.breakpoints.down("sm")]: {
       height: 40,
-      width: 225
-    }
+      width: 225,
+    },
   },
 }));
 
@@ -359,7 +359,13 @@ export default function Contact(props) {
               onChange={(event) => setMessage(event.target.value)}
             />
           </Grid>
-          <Grid item container direction={matchesSM ? "column" : "row"} style={{ marginTop: "2em" }} alignItems="center">
+          <Grid
+            item
+            container
+            direction={matchesSM ? "column" : "row"}
+            style={{ marginTop: "2em" }}
+            alignItems="center"
+          >
             <Grid item>
               <Button
                 style={{ fontWeight: 300 }}
